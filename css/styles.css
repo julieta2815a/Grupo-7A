@@ -1,0 +1,50 @@
+/*Esta archivo contiene TODOS NUESTROS ARCHIVOS del documento*/
+
+/*? A traves del LLAMADO DE ETIQUETA*/
+
+/*llamando a la etiqueta para asignarle estilos*/
+
+body {
+    /*le daremos un color al fondo de nuestro docummento*/
+    background-color: rgb(189, 143, 131);
+}
+
+/*llamando a la clase, para signarle estilos: para esto usamos el punto*/ 
+
+.divtable {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/*para llmar a traves de un ID uso el # */
+#tablecontenido {
+    border: 2px solid black;
+    background-color: azure;
+    /*podemos usar un estilo de propiedad en la tabla,que nos permite evitar esos espacios en la cabecera*/
+    border-collapse:collapse;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(135, 184, 212);
+    /*puedo cambiarle la FUENTE a mi th si no me gusta*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    border: 1px solid black;
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*podemos tambien CENTRAR EL TEXTO tambien con otras propiedades*/
+    text-align: center;
+    /*el PADDING me separa el CONTENIDO respecto al BORDE del contenedor*/
+    padding: 15px;
+}
+
+img {
+    object-fit: contain;
+    width: 10%;
+    border: 1px solid black 
+    
+}
