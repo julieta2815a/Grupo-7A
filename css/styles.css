@@ -1,58 +1,22 @@
-body {
-    background-color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*nos permite dar diferentes tipos de letras*/
-
-}
-form {
-    max-width: 300px;
-    margin: 0px; /*separa entre elementos*/
-}
-label {
-    display: block;
-    margin-top: 8px;
-}
-
-/*vamos a darle estilos a traves de su class*/
-
-.inputStyles{
-    border: 1px solid blue;
-    border-radius: 5px;
-    width: 75px;
-    padding: 5px;
-}
-
-select {
-    appearance: none;
-    display: block;
-    border-radius: 4px;
-    width: 75px;
-    padding: 5px;
-    border: 1px solid blue;
-    margin-bottom: 4px;
-}
-
-.inputSubmit{
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 3px;
-    padding: 5px 15px;
-    margin: 5px 15px 0px 15px;
-    border: 1px solid black;
-    cursor: pointer;
-}
-.btnreset {
+#grid{
+    /*vamos a decirle a ese contenedor que ese contenido va a ser una grilla*/
+    display: grid;
+    /*armado de plantilla de columnas y filas*/
+    grid-template-columns: repeat(5,1fr); /*1fr: significa que ocupa TODO EL ESPACIO LIBRE que tenga */
+    grid-template-rows: 1fr;
+    /*grid-gap: es  la separacion entre cada elemento de la grilla*/
+    grid-gap: 2vw;
     background-color: brown;
+}
+
+
+
+.grid-div{
+    font-size: 55px;
+    background-color: blue;
     color: white;
-    border-radius: 3px;
-    padding: 5px 15px;
     border: 1px solid black;
-    cursor: pointer;
-}
-.inputSubmit :hover{ /*cuando nos posicionamos sobre un elemento se aplican estas caracteristicas*/
-    background-color: white;
-    color: blue;
-}
-.btnreset :hover{
-    background-color: white;
-    color: brown;
+    padding: .5em;
+    text-align: center;
+    margin: 20px;
 }
