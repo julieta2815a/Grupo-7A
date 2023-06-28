@@ -4,57 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table HTML</title>
-    <!--etiquetas de Estilo: como importamos estilos para nuestra TABLA-->
+    <title>FORM Html</title>
+    <!--etiquetas de Estilo: como importamos estilos para nuestra FORMULARIO-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
- 
-<!--TABLAS EN HTML-->
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <!--creacion de FORMULARIO-->
+    <!--cuando creamos un formulario, UBICAR TODOS LAS ETIQUETAS DE INPUT DENTRO DEL FORM-->
+    <div>
+        <h3>formulario de registros</h3>
+        <form method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="inputStyles">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" class="inputStyles">
+
+            <label for="domicilio">Domicilio</label>
+            <input type="text" class="inputStyles">
+
+            <label for="telefono">Telefono Celular</label>
+            <input type="text" class="inputStyles" placeholder="Cod de Area, sin 0 sin 15">
+
+            <label for="genero">Generos</label>
+            <select name="" id="">
+            <option value="" selected>**Seleccione un Genero**</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="O">Otros</option>
+            </select>
+            
+            <input type="submit" value="Enviar" class="inputSubmit"> <!--es muy importante colocar el tipo submit para enviar formulario-->
+            <button type="reset" class="btnreset">Cancelar</button>
+        </form>
+    </div>
+    >
+</body>
+</html>
 
 
-<!--la etiqueta TABLE me indica que todo el contenido : sera en formato de tabla-->
-<div class="divtable">
-<table id="tablecontenido">
-    <thead>
-        <th widtch="15%">Nombre</th>
-        <th widtch="15%">Apellido</th>
-        <th widtch="15%">Direccion</th>
-        <th widtch="20%">Telefono</th>
-        <th widtch="30%">Avatar</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Bart</td>
-            <td>Simpson</td>
-            <td>Av siempreviva 747</td>
-            <td>155384762544</td>
-            <td><img src="https://i.pinimg.com/originals/6e/30/c1/6e30c1212ca8b6467d306bee0d8a2505.png" alt=""></td>
-    
-        </tr>
-        <tr>
-            <td>Homero</td>
-            <td>Simpson</td>
-            <td>cayuncho 765</td>
-            <td>1758375696</td>
-            <td><img src="https://th.bing.com/th/id/R.a1c6623b9606cc35d65bb9eacdbccff4?rik=EqMIJ5VtmfrnvQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f_EqZzf-l7OCg%2fTNmdtcyGBZI%2fAAAAAAAAAD8%2fKD5Y23c24go%2fs1600%2fhomer-simpson-1280x1024.jpg&ehk=0FRJDHAO69%2bYLYc0JDrIVXRLr2R0v9cZy%2bTNOWAK%2bcE%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
-        </tr>
-        <tr>
-            <td>Marge</td>
-            <td>Simpson</td>
-            <td>Catamarca 298</td>
-            <td>1554603109</td>
-            <td><img src="https://th.bing.com/th/id/R.f658ada9305fa0642839e40d4faab710?rik=ZrIednIfRVYszQ&riu=http%3a%2f%2fassets.fxnetworks.com%2fshows%2fthe-simpsons%2fphotos%2fsimpsons-character%2fMarge%2fswsb_character_fact_marge_550x960.png&ehk=1wdeYqnv6tn%2fViD40b8dbg6XDubyspUZz1%2bvIM4a5%2b8%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
-        </tr>
-        <tr>
-            <td>Lisa</td>
-            <td>Simpson</td>
-            <td>Pasaje marti 568</td>
-            <td>1553506557</td>
-            <td><img src="https://th.bing.com/th/id/R.1885c182f4cb9936271cf5339ec70e6c?rik=QNliCz3fcj29Og&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f6800000%2fLisa-Pink-Dress-Wallpaper-lisa-simpson-6807822-1280-1024.jpg&ehk=UjXvMLcY%2fIU%2fNLM4GEvutJQAZjjLv7l%2f1rjXDJ8IWGc%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
-        </tr>
-    </tbody>
-</table>
-</div>
 </body>
 </html>

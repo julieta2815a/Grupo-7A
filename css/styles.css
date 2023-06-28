@@ -1,50 +1,58 @@
-/*Esta archivo contiene TODOS NUESTROS ARCHIVOS del documento*/
-
-/*? A traves del LLAMADO DE ETIQUETA*/
-
-/*llamando a la etiqueta para asignarle estilos*/
-
 body {
-    /*le daremos un color al fondo de nuestro docummento*/
-    background-color: rgb(189, 143, 131);
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*nos permite dar diferentes tipos de letras*/
+
+}
+form {
+    max-width: 300px;
+    margin: 0px; /*separa entre elementos*/
+}
+label {
+    display: block;
+    margin-top: 8px;
 }
 
-/*llamando a la clase, para signarle estilos: para esto usamos el punto*/ 
+/*vamos a darle estilos a traves de su class*/
 
-.divtable {
-    display: flex;
-    align-items:center;
-    justify-content: center;
+.inputStyles{
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 75px;
+    padding: 5px;
 }
 
-/*para llmar a traves de un ID uso el # */
-#tablecontenido {
-    border: 2px solid black;
-    background-color: azure;
-    /*podemos usar un estilo de propiedad en la tabla,que nos permite evitar esos espacios en la cabecera*/
-    border-collapse:collapse;
+select {
+    appearance: none;
+    display: block;
+    border-radius: 4px;
+    width: 75px;
+    padding: 5px;
+    border: 1px solid blue;
+    margin-bottom: 4px;
 }
 
-th {
+.inputSubmit{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin: 5px 15px 0px 15px;
     border: 1px solid black;
-    background-color: rgb(135, 184, 212);
-    /*puedo cambiarle la FUENTE a mi th si no me gusta*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
-
-td {
+.btnreset {
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 15px;
     border: 1px solid black;
-    background-color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*podemos tambien CENTRAR EL TEXTO tambien con otras propiedades*/
-    text-align: center;
-    /*el PADDING me separa el CONTENIDO respecto al BORDE del contenedor*/
-    padding: 15px;
+    cursor: pointer;
 }
-
-img {
-    object-fit: contain;
-    width: 10%;
-    border: 1px solid black 
-    
+.inputSubmit :hover{ /*cuando nos posicionamos sobre un elemento se aplican estas caracteristicas*/
+    background-color: white;
+    color: blue;
+}
+.btnreset :hover{
+    background-color: white;
+    color: brown;
 }
