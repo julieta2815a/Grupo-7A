@@ -1,0 +1,40 @@
+.grid-template{
+    /*cada linea de template representa UNA LINEA*/
+    background-color: mediumaquamarine;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav section section aside"
+    "footer footer footer"
+    ;
+    /*creamos el tamaño de las filas y columnas*/
+    grid-template-rows: 20% 1fr 10% 10px;
+    grid-template-columns: 30px 1fr 1fr 30px;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0px;
+
+}
+
+/*cadena de elementos*/
+header,nav,section,aside,footer{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+/*vamos a decirle a cada elemento que AREA DEBE OCUPAR*/
+#pageHeader{
+    grid-area: header;
+}
+
+#pageNav{
+    grid-area: nav;
+}
+
+#pageAside{
+    grid-area: aside;
+}
+
+#pageFooter{
+    grid-area: footer;
+}
