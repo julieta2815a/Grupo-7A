@@ -4,12 +4,12 @@
     display: grid;
     grid-template-areas:
     "header header header"
-    "nav section section aside"
+    "nav section aside"
     "footer footer footer"
     ;
     /*creamos el tamaño de las filas y columnas*/
-    grid-template-rows: 20% 1fr 10% 10px;
-    grid-template-columns: 30px 1fr 1fr 30px;
+    grid-template-rows: 20% 1fr 10% ;
+    grid-template-columns: 30px 1fr 30px;
     grid-gap: 10px;
     height: 100vh;
     margin: 0px;
@@ -31,6 +31,9 @@ header,nav,section,aside,footer{
     grid-area: nav;
 }
 
+#pagesection{
+    grid-area: section;
+}
 #pageAside{
     grid-area: aside;
 }
