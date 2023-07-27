@@ -1,0 +1,62 @@
+/*MANERAS DE INCLUIR EL CSS
+
+como lo incluimos:
+-Directamente sobre el elemento (etiqueta) usando la propiedad style" 
+ahi, directamente, escribimos nuestro codigo CSS
+-En la cabecera de nuestro HTML. Usando una etiqueta llamada "Style" 
+podemos decir que el diseño que tendra en la pagina, los elementos que 
+indiquemos
+-En una hoja aparte (archivo) , NO DEBEMOS OLVIDAR IMPORTAR LA HOJA 
+AL HTML
+
+*/
+
+/**SELECCION DE ELEMENTOS
+
+A traves del tag (etiqueta) por ej=> div,a,h1,p,img
+-A traves del class por ej=> class:"micontenedor", o class:"textparrajo"
+-A traves del id, por ej=> id:"micontenedor"
+*/
+
+/*Para seleccionar a traves de una clase,utilizamos el . */
+.contenedor4{
+    background-color: brown;
+}
+
+.container{
+    background-color: blueviolet;
+    /*Agregar BORDES*/
+    border: 2px dotted gray;
+    /*CENTRAR TEXTO*/
+    text-align: center;
+    /*AGREGAR ESTILO AL TEXTO CON LETRAS*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*cambiar TAMAÑO AL TEXTO*/
+    font-size: 45px;
+    /*COLOR A LA LETRA*/
+    color: white;
+    -webkit-text-stroke: 2px;
+    /*TSOMBRAS*/
+    text-shadow: 2px black;
+
+    /*SEPARACIONES
+    podemos separar el contenido del borde, ylos elemento entre si
+    */
+    
+    /*Separar el contenido de sus bordes*/
+    padding: 5px 10px;
+
+    /* para Separar contenido con respecto a sus otros elementos*/
+    margin: 5px 10px 2px 5px; /*arriba,derecha,abajo,izquierda*/
+
+    /*Las SEPARACIONES tiene sus propios ATRIBUTOS INDIVIDUALES
+    margin-top: ;
+    margin-bottom: ;
+    padding-left: ;
+    padding-right: ;
+    */
+
+}
+
+
+
