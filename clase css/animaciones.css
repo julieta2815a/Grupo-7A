@@ -108,8 +108,8 @@ PORCENTAJES, seran una distribucion de tiempo*/
 /*EFECTO PERPECTIVA*/
 
 @keyframes perpectiva {
-    from(transform: perspective(150px) rotate(0);)
-    to(transform:perspective(150px) rotate(160deg);)
+    from(tr)
+    to
 }
 
 #animacion-perpectiva:hover{

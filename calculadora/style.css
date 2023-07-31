@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(112, 112, 112);
+}
+
+.calculadora{
+    background-color: beige;
+    margin: 20% auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 350px;
+}
+
+
+.pantallaBotones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}
+
+.pantalla{
+    background-color: aqua;
+    margin-bottom: 10px;
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 5px;
+    text-align: right;
+    padding: 3px;
+    font-size: 2rem;
+}
+
+.calculadoraBoton{
+    background-color: rgb(197, 193, 193);
+}
+
+.calculadoraBotonBorrar{
+    background-color: red;
+    color: azure;
+}
+
+.boton{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1px 1px;
+}
+
+.calculadoraBoton:hover{
+    background-color: white;
+}
+
+.calculadoraBotonBorrar:hover{
+    background-color: antiquewhite;
+    color: red;
+}
