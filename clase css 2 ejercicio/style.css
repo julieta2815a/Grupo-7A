@@ -43,3 +43,10 @@ body{
  span{
   font-weight: bold;
  }
+
+
+#escalar:hover{
+  color: #369;
+  background-color: aliceblue;
+  transform: matrix3d(2.5px);
+}
