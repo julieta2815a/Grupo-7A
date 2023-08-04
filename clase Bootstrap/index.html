@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Contenedor</h1>
+    <!--<h1>Contenedor</h1>
     <div class="contenedor-primario container text-center">
         <h4>Contenedor Bootstrap</h4>
         <p>Este es contenido dentro del contenedor</p>
@@ -104,36 +104,33 @@
         <input type="name" id="name" placeholder="ingrese su  nombre">
         <label for="password">Contraseña</label>
         <input type="password" id="password" placeholder="ingrese su pass">
-    </form>
-    <h1>Formulario en Bootstrap </h1>
+    </form>-->
+    <hr>
+    <h1>Formulario en Bootstrap</h1>
     <div class="container-sm w-25 border border-3 p-3 rounded-4 border-black">
-    <form action="">
-        <div class="form-floating mb-3">
+    <form class="row g-3" action="">
+        <div class="col-md-4 form-floating mb-3">
             <input class="form-control" type="text" name="name" id="name" placeholder="Ingrese su nombre">
             <label for="name" class="form-label">Nombre</label>
         </div>
-        <div class="form-floating mb-3">
+        <div class="col-md-4 form-floating mb-3">
+            <input class="form-control" type="text" name="name" id="name" placeholder="Ingrese su nombre">
+            <label for="name" class="form-label">Usuario</label>
+        </div>
+        <div class="col-md-4 form-floating mb-3">
             <input class="form-control" type="text" name="name" id="name" placeholder="Ingrese su nombre">
             <label for="name" class="form-label">Apellido</label>
         </div>
         <div class="form-floating mb-3">
             <input class="form-control" type="email" name="name" id="email" placeholder="Ingrese su nombre">
             <label for="email" class="form-label">Email</label>    
-        <div class="mb-3">
-            <label for="password" class="form-label">Contraseña</label>
-            <input class="form-control form-control-lg" type="password" id="password" placeholder="Ingrese su pass">
         </div>
-        <button class="btn btn-success">Enviar</button>
+        <div class="form-floating mb-3">
+            <input class="form-control" type="password" id="password" placeholder="Ingrese su pass">
+            <label for="password" class="form-label">Contraseña</label>
+        </div>
+        <button class="col-12 btn btn-success">Enviar</button>
     </form>
-    </div>
-
-    <div>
-    <select class="form-select form-select-sm mb-3" name="" id="">
-        <option selected value="">Selecciona en el select</option>
-        <option value="1">1 Arg</option>
-        <option value="2">2 Bras</option>
-        <option value="3">3 Ee.uu</option>
-    </select>
     </div>
 </body>
 </html>
