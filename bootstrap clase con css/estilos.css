@@ -1,0 +1,15 @@
+html{
+    /*nuestra web ELIMINE BORDES BLANCOS*/
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    margin: 0 auto; /*en una web, no nos quede margenes blancos*/
+}
+
+
+
+.cabecera{
+    background-color: aqua;
+    display: flex;
+}
